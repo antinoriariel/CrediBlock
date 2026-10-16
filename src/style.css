@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f7fa; color: #1a2433 }
+main { max-width: 760px; margin: 0 auto; padding: 16px }
+nav { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px }
+button { padding: 8px 14px; border-radius: 8px; border: 1px solid #c5ccd8; background: #fff; cursor: pointer }
+button.on, button.primary { background: #2b5cff; color: #fff; border-color: #2b5cff }
+button.danger { background: #c62828; color: #fff; border-color: #c62828 }
+.card { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px #0001 }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px }
+.stat b { display: block; font-size: 1.4rem }
+.err { color: #c62828 }
+.note { color: #5b6677; font-size: .9rem }
+input { padding: 8px; border-radius: 8px; border: 1px solid #c5ccd8; width: 8em }
